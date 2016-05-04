@@ -169,6 +169,16 @@ Class Definitions
 	-o-animation-name: flyOutDown;
 	animation-name: flyOutDown;
 }
+
+/*=============================================
+Responsive
+/*===============================================*/
+
+@media screen and (min-width:300px )and (max-width: 640px) {
+  .sb {
+    display: none;
+  }
+}
 /*=================================================
 Animation Library
 =================================================*/
